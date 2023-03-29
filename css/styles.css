@@ -68,7 +68,7 @@ header {
 }
 
 #menuIcon {
-
+ background-color: #A00603;
 }
 
 #spanish {
@@ -78,6 +78,37 @@ header {
 
 #welcome {
     margin: 32px;
+}
+
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: #A00603;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+    background-color: #FFF1CC;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #040E13;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 
