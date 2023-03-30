@@ -1,7 +1,7 @@
 h1{
     font-family: 'Josefin Sans', sans-serif;
     color: #FFF1CC;
-    font-size: 75.78px;
+    font-size: 2.37em;
     line-height: 76px;
 }
 
@@ -37,7 +37,6 @@ p {
     display: flex;
     flex-direction: column;
     align-items: stretch;
-
 }
 
 #splash {
@@ -59,12 +58,15 @@ header {
 }
 
 #logo {
-    width: 120px;
-    height: 128.97px;
+    width: 100px;
+    height: 107.47px;
+    margin-right: 32px;
 }
 
 .portfolioHeader {
     width: 345px;
+    display: flex;
+    justify-content: center;
 }
 
 #menuIcon {
@@ -90,7 +92,7 @@ header {
   /* Hide the links inside the navigation menu (except for logo/home) */
   .topnav #myLinks {
     display: none;
-    background-color: #FFF1CC;
+    background-color: #FDDA7D;
   }
   
   /* Style navigation menu links */
@@ -175,6 +177,7 @@ header {
 
 .EcoGeek, .text {
     width: 806px;
+    margin: 32px;
 }
 
 #About {
@@ -200,7 +203,7 @@ header {
     margin-right: 48px;
 }
 
-.aboutME h3 {
+.aboutME h4 {
     color: #040E13;
     margin-right: 32px;
 }
